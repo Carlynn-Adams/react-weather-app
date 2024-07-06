@@ -1,9 +1,32 @@
-.Weather {
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/076/original/clouds.jpg?1713866610");
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color:#4e80bb;
+} 
+
+a:hover {
+  color:#004aaa;
+}
+
+/* .Weather {  
     font-family: arial, sans-serif;
     border: 1px solid #dadde1;
     padding: 16px;
     border-radius: 4px;
     color: rgb(135, 135, 135); 
+} */
+
+.Weather {
+    background: white;
+  max-width: 600px;
+  margin: 45px auto;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px;
+  padding: 30px;
+  opacity: 90%;
 }
 
 .Weather h1 {
@@ -23,6 +46,11 @@
     font-weight: 100;
     line-height: 19px;
     list-style: none;
+}
+
+.Weather li strong {
+     color:#135ec1;
+     font-weight: bold;
 }
 
 .Weather canvas {
@@ -46,4 +74,12 @@
     position: relative;
     line-height: 1;
     top: -34px;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
 }
